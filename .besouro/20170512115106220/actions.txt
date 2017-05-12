@@ -58,3 +58,6 @@ RefactoringAction 1494585387244 BowlingGame.java RENAME sumBonus=>int sumBonus()
 RefactoringAction 1494585395314 BowlingGame.java RENAME sumBonus()=>int sumBonus(int) METHOD
 RefactoringAction 1494585403950 BowlingGame.java RENAME sumBonus(int)=>int sumBonus(int, int) METHOD
 EditAction 1494585490005 BowlingGame.java 1338 5 4 0
+CompilationAction 1494585493493 BowlingGame.java
+RefactoringAction 1494585708031 BowlingGame.java REMOVE sumBonus(int, int) METHOD
+EditAction 1494585956668 BowlingGame.java 1455 4 5 0

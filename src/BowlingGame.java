@@ -34,26 +34,25 @@ public class BowlingGame {
 			}
 		}
 	}
-	public int sumBonus(int firstThrow, int secondThrow){
-		int bonus = 0;
-		for(int i =0; i < frames.size(); i++){
-			if(frames.get(i).isSpare() == true){
-				bonus = 
-				
-			}
-		}
-		return 0;
-	}
 	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
+		int bonus;
 		for(int i =0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() == true){
+				bonus=  frames.get(i+1).getFirstThrow();
+				return bonus;
+			}
+			else if(frames.get(i).isStrike() == true){
+				bonus = frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow() + 
+						frames.get(i+2).getFirstThrow() + frames.get(i+2).getSecondThrow();
+				return bonus;
+				
+			}else{
 				
 			}
 		}
-		
 		return 0;
 	}
 

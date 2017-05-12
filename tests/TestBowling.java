@@ -22,9 +22,10 @@ public class TestBowling {
 		assertTrue(f.isSpare());
 	}
 	
-	@Test(expected = BowlingException.class)
+	/*@Test(expected = BowlingException.class)
 	public void testToChexkException(){
 		Frame f = new Frame(10,0);
 		
-	}
+	}*/
+	
 }
