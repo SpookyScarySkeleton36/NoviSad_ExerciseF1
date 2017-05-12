@@ -74,3 +74,4 @@ RefactoringAction 1494586353535 TestBowling.java ADD void test FIELD
 RefactoringAction 1494586357564 TestBowling.java RENAME test=>void testFor FIELD
 RefactoringAction 1494586362624 TestBowling.java RENAME testFor=>void testForThirdFrame() METHOD
 EditAction 1494586411697 TestBowling.java 651 4 7 3
+EditAction 1494586459213 TestBowling.java 719 4 9 3

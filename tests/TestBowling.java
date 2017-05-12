@@ -31,5 +31,9 @@ public class TestBowling {
 	@Test
 	public void testForThirdFrame() throws BowlingException{
 		Frame f = new Frame(1,4);
+		Frame f1 = new Frame(4,5);
+		Frame f2 = new Frame(6,4);
+		
+		
 	}
 }
