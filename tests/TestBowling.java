@@ -30,10 +30,11 @@ public class TestBowling {
 	
 	@Test
 	public void testForThirdFrame() throws BowlingException{
-		Frame f = new Frame(1,4);
+		Frame f0 = new Frame(1,4);
 		Frame f1 = new Frame(4,5);
 		Frame f2 = new Frame(6,4);
-		
-		
+		Frame f3 = new Frame(5,5);
+		BowlingGame bg = new BowlingGame();
+		assertEquals(29, bg.score());
 	}
 }
