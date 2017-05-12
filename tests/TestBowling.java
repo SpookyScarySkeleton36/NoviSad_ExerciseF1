@@ -28,4 +28,8 @@ public class TestBowling {
 		
 	}*/
 	
+	@Test
+	public void testForThirdFrame() throws BowlingException{
+		Frame f = new Frame(1,4);
+	}
 }
