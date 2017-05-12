@@ -80,3 +80,12 @@ UnitTestSessionAction 1494586643898 TestBowling.java FAIL
 UnitTestCaseAction 1494586701707 TestBowling.java FAIL
 UnitTestSessionAction 1494586701708 TestBowling.java FAIL
 EditAction 1494586722129 TestBowling.java 814 4 12 4
+UnitTestCaseAction 1494586727481 TestBowling.java FAIL
+UnitTestSessionAction 1494586727483 TestBowling.java FAIL
+UnitTestCaseAction 1494586778129 TestBowling.java FAIL
+UnitTestSessionAction 1494586778130 TestBowling.java FAIL
+RefactoringAction 1494586788825 TestBowling.java RENAME testForThirdFrame()=>void testForThird() METHOD
+RefactoringAction 1494586790365 TestBowling.java RENAME testForThird()=>void testForThirdGa() METHOD
+RefactoringAction 1494586792903 TestBowling.java RENAME testForThirdGa()=>void testForThird() METHOD
+RefactoringAction 1494586794981 TestBowling.java RENAME testForThird()=>void testForThirdFrame() METHOD
+EditAction 1494586836342 TestBowling.java 710 4 9 4
