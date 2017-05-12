@@ -21,3 +21,4 @@ RefactoringAction 1494583570208 TestBowling.java RENAME testToCheckI=>void testT
 RefactoringAction 1494583576748 TestBowling.java RENAME testToCheckIf=>void testToCheckIfSpare FIELD
 RefactoringAction 1494583578774 TestBowling.java RENAME testToCheckIfSpare=>void testToCheckIfSpare() METHOD
 EditAction 1494583607116 TestBowling.java 422 3 6 3
+EditAction 1494583613646 BowlingGame.java 743 4 2 0
