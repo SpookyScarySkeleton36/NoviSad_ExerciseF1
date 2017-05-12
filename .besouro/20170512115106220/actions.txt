@@ -22,3 +22,15 @@ RefactoringAction 1494583576748 TestBowling.java RENAME testToCheckIf=>void test
 RefactoringAction 1494583578774 TestBowling.java RENAME testToCheckIfSpare=>void testToCheckIfSpare() METHOD
 EditAction 1494583607116 TestBowling.java 422 3 6 3
 EditAction 1494583613646 BowlingGame.java 743 4 2 0
+UnitTestCaseAction 1494583618247 TestBowling.java OK
+UnitTestSessionAction 1494583618250 TestBowling.java OK
+RefactoringAction 1494583767634 BowlingGame.java ADD int su FIELD
+RefactoringAction 1494583769168 BowlingGame.java RENAME su=>int sum FIELD
+RefactoringAction 1494583770208 BowlingGame.java RENAME sum=>int sumO FIELD
+RefactoringAction 1494583772238 BowlingGame.java REMOVE sumO FIELD
+RefactoringAction 1494583776282 BowlingGame.java ADD int result FIELD
+RefactoringAction 1494583806508 BowlingGame.java REMOVE result FIELD
+RefactoringAction 1494583819115 BowlingGame.java ADD int result FIELD
+RefactoringAction 1494584138023 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1494584138024 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1494584139362 Frame.java 1015 8 9 0
