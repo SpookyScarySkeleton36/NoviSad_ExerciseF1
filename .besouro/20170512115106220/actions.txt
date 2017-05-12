@@ -48,3 +48,4 @@ RefactoringAction 1494585195802 TestBowling.java ADD void testToC FIELD
 RefactoringAction 1494585201834 TestBowling.java RENAME testToC=>void testToChexkException() METHOD
 EditAction 1494585270790 TestBowling.java 544 4 7 3
 EditAction 1494585276768 BowlingGame.java 1100 4 5 0
+EditAction 1494585280530 Frame.java 1015 8 9 0
