@@ -5,3 +5,4 @@ FileOpenedAction 1494582992103 TestBowling.java 165 1 1 0
 RefactoringAction 1494583052167 TestBowling.java RENAME test()=>void testTo() METHOD
 RefactoringAction 1494583055695 TestBowling.java RENAME testTo()=>void testTo FIELD
 EditAction 1494583145948 TestBowling.java 205 1 2 1
+EditAction 1494583161894 Frame.java 709 6 7 0
