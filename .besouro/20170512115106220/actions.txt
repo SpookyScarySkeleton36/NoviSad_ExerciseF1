@@ -89,3 +89,5 @@ RefactoringAction 1494586790365 TestBowling.java RENAME testForThird()=>void tes
 RefactoringAction 1494586792903 TestBowling.java RENAME testForThirdGa()=>void testForThird() METHOD
 RefactoringAction 1494586794981 TestBowling.java RENAME testForThird()=>void testForThirdFrame() METHOD
 EditAction 1494586836342 TestBowling.java 710 4 9 4
+CompilationAction 1494586839893 TestBowling.java
+EditAction 1494586847710 TestBowling.java 711 4 9 4

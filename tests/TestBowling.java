@@ -32,6 +32,6 @@ public class TestBowling {
 	public void testForThirdFrame() throws BowlingException{
 		Frame f0 = new Frame(6,4);
 		Frame f1 = new Frame(5,5);
-		assertTrue(f.isSpare());
+		assertTrue(f0.isSpare());
 	}
 }
