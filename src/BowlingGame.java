@@ -20,10 +20,17 @@ public class BowlingGame {
 	}
 	
 	// Sets the bonus throws at the end of the game
-	public void setBonus(int firstThrow, int secondThrow) {
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		//to be implemented
+		
 		for(int i = 0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() == true){
+				throw new BowlingException();			
+			}
+			else if(frames.get(i).isStrike() == true){
+				throw new BowlingException();
+			}else{
+				
 			}
 		}
 	}
@@ -33,6 +40,7 @@ public class BowlingGame {
 		//to be implemented: should return game score
 		int i = 0;
 		while(i < frames.size()){
+			
 			i++;
 			
 		}
@@ -40,19 +48,4 @@ public class BowlingGame {
 		return 0;
 	}
 
-	public Frame getBonus() {
-		return bonus;
-	}
-
-	public void setBonus(Frame bonus) {
-		this.bonus = bonus;
-	}
-
-	public int getResult() {
-		return result;
-	}
-
-	public void setResult(int result) {
-		this.result = result;
-	}
 }
