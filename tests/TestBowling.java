@@ -34,4 +34,15 @@ public class TestBowling {
 		Frame f1 = new Frame(5,5);
 		assertTrue(f0.isSpare());
 	}
+	 @Test
+	 public void testForWholeGame(){
+		 Frame f0 = new Frame(1,4);
+		 Frame f1 = new Frame(4,5);
+		 Frame f2 = new Frame(6,4);
+		 Frame f3 = new Frame(5,5);
+		 Frame f4 = new Frame(10,0);
+		 //Frame f5 = new Frame(6,4);
+		 
+		 
+	 }
 }

@@ -91,3 +91,11 @@ RefactoringAction 1494586794981 TestBowling.java RENAME testForThird()=>void tes
 EditAction 1494586836342 TestBowling.java 710 4 9 4
 CompilationAction 1494586839893 TestBowling.java
 EditAction 1494586847710 TestBowling.java 711 4 9 4
+UnitTestCaseAction 1494586852204 TestBowling.java OK
+UnitTestSessionAction 1494586852207 TestBowling.java OK
+RefactoringAction 1494586870645 TestBowling.java ADD void test FIELD
+RefactoringAction 1494586872692 TestBowling.java RENAME test=>void testFor FIELD
+RefactoringAction 1494586874227 TestBowling.java RENAME testFor=>void testForWhole FIELD
+RefactoringAction 1494586875781 TestBowling.java RENAME testForWhole=>void testForWholeGame FIELD
+RefactoringAction 1494586876832 TestBowling.java RENAME testForWholeGame=>void testForWholeGame() METHOD
+EditAction 1494586964782 TestBowling.java 959 5 14 4
