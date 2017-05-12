@@ -34,15 +34,24 @@ public class BowlingGame {
 			}
 		}
 	}
+	public int sumBonus(int firstThrow, int secondThrow){
+		int bonus = 0;
+		for(int i =0; i < frames.size(); i++){
+			if(frames.get(i).isSpare() == true){
+				bonus = 
+				
+			}
+		}
+		return 0;
+	}
 	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
-		int i = 0;
-		while(i < frames.size()){
-			
-			i++;
-			
+		for(int i =0; i < frames.size(); i++){
+			if(frames.get(i).isSpare() == true){
+				
+			}
 		}
 		
 		return 0;

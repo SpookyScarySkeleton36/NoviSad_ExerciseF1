@@ -49,3 +49,12 @@ RefactoringAction 1494585201834 TestBowling.java RENAME testToC=>void testToChex
 EditAction 1494585270790 TestBowling.java 544 4 7 3
 EditAction 1494585276768 BowlingGame.java 1100 4 5 0
 EditAction 1494585280530 Frame.java 1015 8 9 0
+UnitTestCaseAction 1494585285293 TestBowling.java FAIL
+UnitTestSessionAction 1494585285295 TestBowling.java FAIL
+RefactoringAction 1494585294463 TestBowling.java REMOVE testToChexkException() METHOD
+RefactoringAction 1494585383157 BowlingGame.java ADD int sum FIELD
+RefactoringAction 1494585385707 BowlingGame.java RENAME sum=>int sumBonus FIELD
+RefactoringAction 1494585387244 BowlingGame.java RENAME sumBonus=>int sumBonus() METHOD
+RefactoringAction 1494585395314 BowlingGame.java RENAME sumBonus()=>int sumBonus(int) METHOD
+RefactoringAction 1494585403950 BowlingGame.java RENAME sumBonus(int)=>int sumBonus(int, int) METHOD
+EditAction 1494585490005 BowlingGame.java 1338 5 4 0
