@@ -5,8 +5,9 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testToCheckScore() {
+		Frame f = new Frame(1,5);
+		assertEquals(6, f.score());
 	}
 
 }
