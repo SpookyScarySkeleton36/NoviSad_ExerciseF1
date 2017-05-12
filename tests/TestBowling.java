@@ -21,4 +21,10 @@ public class TestBowling {
 		Frame f = new Frame(5,5);
 		assertTrue(f.isSpare());
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void testToChexkException(){
+		Frame f = new Frame(10,0);
+		
+	}
 }
