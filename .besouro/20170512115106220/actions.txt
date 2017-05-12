@@ -34,3 +34,8 @@ RefactoringAction 1494583819115 BowlingGame.java ADD int result FIELD
 RefactoringAction 1494584138023 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1494584138024 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1494584139362 Frame.java 1015 8 9 0
+RefactoringAction 1494584550368 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1494584550377 BowlingGame.java ADD void setBonus(Frame) METHOD
+RefactoringAction 1494584550381 BowlingGame.java ADD int getResult() METHOD
+RefactoringAction 1494584550387 BowlingGame.java ADD void setResult(int) METHOD
+EditAction 1494584567424 BowlingGame.java 1160 8 9 0
