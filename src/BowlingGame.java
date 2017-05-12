@@ -34,10 +34,7 @@ public class BowlingGame {
 			}
 		}
 	}
-	
-	// Returns the game score
-	public int score(){
-		//to be implemented: should return game score
+	public int bonuses(){
 		int bonus;
 		for(int i =0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() == true){
@@ -49,10 +46,26 @@ public class BowlingGame {
 						frames.get(i+2).getFirstThrow() + frames.get(i+2).getSecondThrow();
 				return bonus;
 				
-			}else{
-				
 			}
 		}
+		return 0;
+		
+	}
+	
+	// Returns the game score
+	public int score(){
+		//to be implemented: should return game score
+		for(int i =0; i < frames.size(); i++){
+			if(frames.get(i).isSpare() == true || frames.get(i).isStrike() == true){
+				return result += frames.get(i).score() + bonuses();
+				
+			}
+			else{
+				return result += frames.get(i).score();
+			}
+
+		}
+
 		return 0;
 	}
 

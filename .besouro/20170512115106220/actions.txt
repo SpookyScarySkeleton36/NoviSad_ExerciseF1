@@ -61,3 +61,12 @@ EditAction 1494585490005 BowlingGame.java 1338 5 4 0
 CompilationAction 1494585493493 BowlingGame.java
 RefactoringAction 1494585708031 BowlingGame.java REMOVE sumBonus(int, int) METHOD
 EditAction 1494585956668 BowlingGame.java 1455 4 5 0
+RefactoringAction 1494585969067 BowlingGame.java ADD int Bonuses FIELD
+RefactoringAction 1494585973106 BowlingGame.java RENAME Bonuses=>int bonus/2 FIELD
+RefactoringAction 1494585974153 BowlingGame.java RENAME bonus/2=>int bonuses FIELD
+RefactoringAction 1494585978200 BowlingGame.java RENAME bonuses=>int bonuses() METHOD
+RefactoringAction 1494585988305 BowlingGame.java RENAME bonuses()=>int bonuses(int, int) METHOD
+RefactoringAction 1494586002953 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1494586017626 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1494586253248 BowlingGame.java RENAME bonuses(int, int)=>int bonuses() METHOD
+EditAction 1494586332240 BowlingGame.java 1741 5 7 0
