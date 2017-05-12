@@ -13,3 +13,4 @@ RefactoringAction 1494583390555 TestBowling.java RENAME testTo=>void testToCheck
 RefactoringAction 1494583393081 TestBowling.java RENAME testToCheck=>void testToCheckIfStrike FIELD
 RefactoringAction 1494583396622 TestBowling.java RENAME testToCheckIfStrike=>void testToCheckIfStrike() METHOD
 EditAction 1494583478834 TestBowling.java 314 2 4 2
+EditAction 1494583543416 Frame.java 841 6 7 0
